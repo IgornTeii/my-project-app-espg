@@ -1,0 +1,23 @@
+.modal {
+    background-color: rgba(0,0,0,0.9); 
+    width: 90%; 
+    height: 90%; 
+    color: #fff; 
+    position: fixed;
+    top: 5%; 
+    left: 5%; 
+    z-index: 1000;
+    padding: 20px; 
+    border-radius: 10px; 
+    opacity: 0; 
+    animation: fadeIn 0.5s forwards; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
